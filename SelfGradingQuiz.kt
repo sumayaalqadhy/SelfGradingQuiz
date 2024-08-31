@@ -23,4 +23,14 @@ fun main() {
     points += 25
     }
 
+    // Question 2
+    if (studentAnswer2 == quizAnswer2) {
+    points += 25
+    } else if (studentAnswer2 == quizAnswer2++ || studentAnswer2 == quizAnswer2--) {
+    points += 20
+    println("The answer $studentAnswer2 is within 1 point of $quizAnswer2.")
+    } else {
+    points += 1
+    }
+
 }
