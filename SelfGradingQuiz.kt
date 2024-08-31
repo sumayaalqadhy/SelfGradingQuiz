@@ -51,4 +51,13 @@ fun main() {
     points += 1
     }
 
+    when (points) {
+     in 0..59 -> println("$points points is an F.")
+     in 60..69 -> println("$points points is an D.")
+     in 70..79 -> println("$points points is an C.")
+     in 80..89 -> println("$points points is an B.")
+     in 90..99 -> println("$points points is an A.")
+     in 101..110 -> println("$points points is an A+.")
+    }
+
 }
