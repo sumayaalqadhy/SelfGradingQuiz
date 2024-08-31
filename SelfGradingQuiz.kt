@@ -33,4 +33,13 @@ fun main() {
     points += 1
     }
 
+    // Question 3
+    if (studentAnswer3 == quizAnswer3) {
+    points += 25
+    } else if (studentAnswer3 == "equilateral") {
+    points += 10
+    } else {
+    points += 1
+    }
+
 }
