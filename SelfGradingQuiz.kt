@@ -42,4 +42,13 @@ fun main() {
     points += 1
     }
 
+    // Question 4
+    if (studentAnswer4 == quizAnswer4) {
+    points += 25
+    } else if (studentAnswer4 in 44..54) {
+    points += 20
+    } else {
+    points += 1
+    }
+
 }
